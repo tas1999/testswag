@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"./docs"
+	"github.com/tas1999/testswag/docs"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
-	"github.com/swaggo/gin-swagger"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 // gin-swagger middleware
